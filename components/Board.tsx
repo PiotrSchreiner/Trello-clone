@@ -9,13 +9,13 @@ useEffect(() => {
 }, [])
 
   return (
-    <DragDropContext>
+   {/* <DragDropContext>
       <Droppable droppableId='board' direction='horizontal' type='column'>
         {(provided) => (
           <div></div>
         )}
       </Droppable>
-    </DragDropContext>
+    </DragDropContext>*/}
   );
 }
 
